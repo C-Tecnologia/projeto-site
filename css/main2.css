@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: rgb(251, 253, 255);
+  overflow-y: hidden;
+}
+.menu-principal {
+  width: 100%;
+  background-color: rgb(150, 160, 158);
+  height: 56px;
+}
+.logo {
+  position: absolute;
+  top: 16px;
+  float: left;
+  padding-left: 29px;
+}
+.redes-sociais ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  margin-left: 30px;
+}
+.redes-sociais2 ul li {
+  position: absolute;
+  display: inline-block;
+  float: left;
+  list-style: none;
+  margin-left: 20px;
+  height: 1px;
+  top: 593px;
+}
+.redes-sociais {
+  width: 40%;
+  float: right;
+}
+.redes-sociais2 {
+  width: 15%;
+  float: right;
+}
+.ul {
+  padding: 0px !important;
+}
+.bloco-imagem {
+  position: absolute;
+  left: 10px;
+  top: 229px;
+  width: 20px;
+  height: 50px;
+}
+.redes-sociais3 ul li {
+  display: inline-block;
+  float: left;
+  list-style: none;
+  margin-left: 18px;
+}
+.redes-sociais3 {
+  position: absolute;
+  float: right;
+  top: 497px;
+  left: -45px;
+}
+.logo-rodape {
+  height: 30px;
+  left: -40px;
+}
+.rodape {
+  background-color: rgb(150, 160, 158);
+  /*para colocar uma borda em volta do bloco.*/
+  /*chegar o bloco de img,incluindo  texto ,para um lado , ou para o outro*/
+  padding-bottom: 60px;
+  width: 100%;
+  position: absolute;
+  top: 497px;
+  margin: 0 auto;
+  padding-left: 10px;
+}
+.footer2 {
+  position: absolute;
+  top: -25px;
+  padding-left: 55px;
+}
+.menu1 ul li {
+  display: inline-block;
+  margin-left: -1px;
+  margin-top: -13px;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  background: transparent;
+}
+.slick-dots li button {
+  font-size: 0px;
+  width: 26px;
+  height: 26px;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.slick-dots {
+  margin: 0 auto;
+  width: 50%;
+  position: absolute;
+  left: 43%;
+  top: 300px;
+}
+li.slick-active button {
+  background: cyan;
+}
+.slick-dots li {
+  padding-left: 10px;
+}
+.menu1 ul li:hover {
+  border-bottom: 12px solid #00c61a;
+  /*Codigo de baixo , e para dar um estilo meio que sircular no menu abaixo do logo ct*/
+  border-radius: 110px;
+  transition-duration: 2s;
+}
+.menu1 ul li a:hover {
+  color: #00c61a;
+  transition-duration: 2s;
+}
+.menu1 ul li a {
+  color: #07d0f3;
+  text-decoration: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
